@@ -1,2 +1,1 @@
-# tindog
-Just a practice assignment
+TinDog Starting Files

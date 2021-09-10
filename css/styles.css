@@ -22,20 +22,26 @@ h1{
     margin: 5% 3% 5% 0;
 }
 #title-img{
-    width: 50%;
+    width: 30%;
     transform: rotate(25deg);
     margin-left: 15%;
 }
 @media (max-width : 1028px){
     #title-img{
         transform: rotate(0);
+    }
+    #title{
         text-align: center;
         font-size: larger;
     }
 }
+
 /* FEATURES */
 #features{
     padding: 7% 15%;
+    background-color:  rgb(243, 144, 160);
+    position: relative;
+    z-index: 1;
 }
 .feature-box{
     text-align: center;

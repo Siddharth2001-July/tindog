@@ -26,7 +26,13 @@ h1{
     transform: rotate(25deg);
     margin-left: 15%;
 }
-
+@media (max-width : 1028px){
+    #title-img{
+        transform: rotate(0);
+        text-align: center;
+        font-size: larger;
+    }
+}
 /* FEATURES */
 #features{
     padding: 7% 15%;
